@@ -1,0 +1,60 @@
+About Dataset
+Context
+The growth of supermarkets in most populated cities are increasing and market competitions are also high. The dataset is one of the historical sales of supermarket company which has recorded in 3 different branches for 3 months data. Predictive data analytics methods are easy to apply with this dataset.
+
+Attribute information
+Invoice id: Computer generated sales slip invoice identification number
+Branch: Branch of supercenter (3 branches are available identified by A, B and C).
+City: Location of supercenters
+Customer type: Type of customers, recorded by Members for customers using member card and Normal for without member card.
+Gender: Gender type of customer
+Product line: General item categorization groups - Electronic accessories, Fashion accessories, Food and beverages, Health and beauty, Home and lifestyle, Sports and travel
+Unit price: Price of each product in $
+Quantity: Number of products purchased by customer
+Tax: 5% tax fee for customer buying
+Total: Total price including tax
+Date: Date of purchase (Record available from January 2019 to March 2019)
+Time: Purchase time (10am to 9pm)
+Payment: Payment used by customer for purchase (3 methods are available – Cash, Credit card and Ewallet)
+COGS: Cost of goods sold
+Gross margin percentage: Gross margin percentage
+Gross income: Gross income
+Rating: Customer stratification rating on their overall shopping experience (On a scale of 1 to 10)
+
+Acknowledgements
+Thanks to all who take time and energy to perform Kernels with this dataset and reviewers.
+
+Purpose
+This dataset can be used for predictive data analytics purpose.
+
+
+Quel est le chiffre d'affaires total par branche ?
+
+Analyser les performances financières de chaque branche en fonction du chiffre d'affaires réalisé sur les trois mois.
+Quel est l'impact du type de client (Membre vs Normal) sur le montant des achats moyens ?
+
+Examiner si les membres dépensent en moyenne plus que les clients normaux.
+Quels sont les produits les plus vendus par catégorie ?
+
+Identifier les catégories de produits (ligne de produit) les plus populaires.
+Quelle est la variation des ventes en fonction des jours de la semaine et de l'heure d'achat ?
+
+Analyser si certains jours ou heures génèrent plus de ventes.
+Quel est l'effet du mode de paiement sur le montant total des ventes ?
+
+Comparer les modes de paiement (Cash, Carte de crédit, Ewallet) pour voir lequel est le plus utilisé et celui qui génère les ventes les plus élevées.
+Comment la satisfaction des clients (évaluation) varie-t-elle selon les catégories de produits ?
+
+Étudier si certains types de produits génèrent des évaluations plus élevées.
+Y a-t-il une différence notable dans le panier moyen entre les hommes et les femmes ?
+
+Comparer le montant moyen dépensé par les clients selon le genre.
+Quels sont les déterminants des ventes élevées ?
+
+Utiliser des méthodes prédictives pour comprendre les facteurs influençant les ventes les plus importantes (par exemple, prix unitaire, quantité, branche, type de client).
+Quel est le taux de marge brute par branche et comment varie-t-il en fonction des produits vendus ?
+
+Étudier les différences de marges brutes entre branches et produits.
+Quelle est la répartition des ventes entre les trois branches sur les trois mois ?
+
+Analyser si certaines branches ont des pics de ventes à des moments particuliers ou si elles sont globalement plus performantes.
