@@ -1,0 +1,10 @@
+# Ignorer les fichiers et dossiers sensibles ou volumineux
+data/raw/
+data/interim/
+models/
+logs/
+*.log
+.ipynb_checkpoints/
+__pycache__/
+.env
+*.pyc
