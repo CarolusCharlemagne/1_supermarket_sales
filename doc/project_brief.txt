@@ -1,60 +1,34 @@
-About Dataset
-Context
-The growth of supermarkets in most populated cities are increasing and market competitions are also high. The dataset is one of the historical sales of supermarket company which has recorded in 3 different branches for 3 months data. Predictive data analytics methods are easy to apply with this dataset.
+Sur le chiffre d’affaires :
+Analyse des ventes :
 
-Attribute information
-Invoice id: Computer generated sales slip invoice identification number
-Branch: Branch of supercenter (3 branches are available identified by A, B and C).
-City: Location of supercenters
-Customer type: Type of customers, recorded by Members for customers using member card and Normal for without member card.
-Gender: Gender type of customer
-Product line: General item categorization groups - Electronic accessories, Fashion accessories, Food and beverages, Health and beauty, Home and lifestyle, Sports and travel
-Unit price: Price of each product in $
-Quantity: Number of products purchased by customer
-Tax: 5% tax fee for customer buying
-Total: Total price including tax
-Date: Date of purchase (Record available from January 2019 to March 2019)
-Time: Purchase time (10am to 9pm)
-Payment: Payment used by customer for purchase (3 methods are available – Cash, Credit card and Ewallet)
-COGS: Cost of goods sold
-Gross margin percentage: Gross margin percentage
-Gross income: Gross income
-Rating: Customer stratification rating on their overall shopping experience (On a scale of 1 to 10)
+Quels produits génèrent le plus de revenus ? Quels sont ceux qui en génèrent le moins ?
+Les ventes varient-elles selon les branches ou les villes ? Si oui, pourquoi ?
+Peut-on identifier les pics de ventes par heure, jour ou mois pour adapter les horaires et le personnel ?
+Optimisation des promotions :
 
-Acknowledgements
-Thanks to all who take time and energy to perform Kernels with this dataset and reviewers.
+Quelle serait la meilleure stratégie de promotion pour augmenter les ventes : des remises sur les prix unitaires ou des offres groupées (bundle deals) ?
+Comment cibler les membres avec des offres spécifiques pour augmenter leur fidélité ?
+Sur les processus :
+Efficacité opérationnelle :
 
-Purpose
-This dataset can be used for predictive data analytics purpose.
+Les coûts des marchandises vendues (COGS) sont-ils uniformes ? Y a-t-il des opportunités de négociation avec les fournisseurs ?
+Peut-on optimiser les niveaux de stock pour éviter les surstocks ou ruptures de produits ?
+Temps de paiement :
 
+Pourquoi les clients préfèrent-ils une méthode de paiement (cash, carte, e-wallet) dans certaines branches ? Y a-t-il un lien avec la satisfaction client ?
+Explication de phénomènes observés :
+Satisfaction client :
 
-Quel est le chiffre d'affaires total par branche ?
+Pourquoi certains clients attribuent-ils des notes faibles ? Est-ce lié aux produits, au service, ou à d’autres facteurs ?
+Peut-on analyser les retours d’expérience des clients pour identifier les points à améliorer ?
+Évolution des marges :
 
-Analyser les performances financières de chaque branche en fonction du chiffre d'affaires réalisé sur les trois mois.
-Quel est l'impact du type de client (Membre vs Normal) sur le montant des achats moyens ?
+Les marges brutes varient-elles selon les branches ou les catégories de produits ? Y a-t-il des produits moins rentables qui pourraient être remplacés ?
+Demande de tableaux et modèles :
+Prévision des ventes :
 
-Examiner si les membres dépensent en moyenne plus que les clients normaux.
-Quels sont les produits les plus vendus par catégorie ?
+Pouvez-vous créer un modèle pour prédire les ventes futures en fonction des tendances actuelles ?
+Quels produits devons-nous prioriser dans nos stocks avant les périodes de forte demande (ex. : événements locaux, fêtes )?
+Rapport global :
 
-Identifier les catégories de produits (ligne de produit) les plus populaires.
-Quelle est la variation des ventes en fonction des jours de la semaine et de l'heure d'achat ?
-
-Analyser si certains jours ou heures génèrent plus de ventes.
-Quel est l'effet du mode de paiement sur le montant total des ventes ?
-
-Comparer les modes de paiement (Cash, Carte de crédit, Ewallet) pour voir lequel est le plus utilisé et celui qui génère les ventes les plus élevées.
-Comment la satisfaction des clients (évaluation) varie-t-elle selon les catégories de produits ?
-
-Étudier si certains types de produits génèrent des évaluations plus élevées.
-Y a-t-il une différence notable dans le panier moyen entre les hommes et les femmes ?
-
-Comparer le montant moyen dépensé par les clients selon le genre.
-Quels sont les déterminants des ventes élevées ?
-
-Utiliser des méthodes prédictives pour comprendre les facteurs influençant les ventes les plus importantes (par exemple, prix unitaire, quantité, branche, type de client).
-Quel est le taux de marge brute par branche et comment varie-t-il en fonction des produits vendus ?
-
-Étudier les différences de marges brutes entre branches et produits.
-Quelle est la répartition des ventes entre les trois branches sur les trois mois ?
-
-Analyser si certaines branches ont des pics de ventes à des moments particuliers ou si elles sont globalement plus performantes.
+Pouvez-vous me fournir un tableau de bord interactif regroupant les ventes, la satisfaction client, et la répartition des paiements ?

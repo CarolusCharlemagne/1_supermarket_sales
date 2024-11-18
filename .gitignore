@@ -1,8 +1,9 @@
 # Ignorer les fichiers et dossiers sensibles ou volumineux
 data/raw/
-data/interim/
+data/clean/
+data/ml/
 models/
-logs/
+scripts/libs/
 *.log
 .ipynb_checkpoints/
 __pycache__/
